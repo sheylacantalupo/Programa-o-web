@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aula 2</title>
+    </head>
+    <body>
+        <h1>Continuação HTML tags (esse é o título H1)</h1>
+        <p>Este é um parágrafo!!!</p>
+        <i>Isso aqui esta em itálico</i><br>
+        Além da tag <strong>strong</strong> que também coloca em negrito
+        <h2>Uma imagem qualquer</h2>
+        <img src ="https://3.bp.blogspot.com/-Wu1EQACBALA/XNwm9qVEiqI/AAAAAAAAAAY/CZlkhOPzco0GUDAE4WloxCAls_GagtIiACLcBGAs/s1600/hello-world1.png" height="200" width="">
+        <figure>
+            <img src="https://conteudo.imguol.com.br/c/entretenimento/47/2020/04/02/gato-gato-fofo-gato-filhote-1585841507191_v2_450x337.jpg" height="200" width="">
+            <figcaption>olá mundo</figcaption>
+        </figure>
+        <hr>
+        <h2>Lista ordenada:</h2>
+        <ol type="A">
+            <li>exemplo</li>
+            <li>exemplo</li>
+            <li>exemplo</li>
+            <li>exemplo</li>
+        </ol>
+        <hr>
+        <h2>Lista não ordenada:</h2>
+        <ul>
+            <li>exemplo</li>
+            <li>exemplo</li>
+            <li>exemplo</li>
+            <li>exemplo</li>
+        </ul>
+        <hr>
+        <!-- ctrl + : atalho para comentar-->
+        <h2>Tópico sobre arquitetura de computadore</h2>
+        <ul>
+            <li><a href="https://pt.wikipedia.org/wiki/Arquitetura_de_computadores" target="_blank">Arquitetura ARM</a></li>
+            <li><a href="https://saude.abril.com.br/bem-estar/11-sinais-de-que-seu-gato-pode-estar-doente/">Gato doente</a></li>
+            <li><a href="https://github.com/sheylacantalupo?tab=repositories">Github</a></li>
+        </ul>
+        <hr>
+        <h2>Tópico sobre formulários</h2>
+        
+        <form>
+            Digite o seu nome:
+            <input type="text" name="nome"/> <br/>
+
+            Email:
+            <input type="email" placeholder="Digite seu email..."/><br>
+
+            Sua idade:
+            <input min="0" type="number" /> <br/>
+
+            Escolha sua linguagem de programação favorita: <br>
+            <input type="radio" name="linguagem" checked/> Python <br>
+            <input type="radio" name="linguagem"/> C++ <br>
+            <input type="radio" name="linguagem"/> Java <br>
+            <input type="radio" name="linguagem"/> Ruby <br>
+
+
+            Qual linguagem de programação você já utilizou? <br>
+            <input type="checkbox" name="linguagem"/> Python <br>
+            <input type="checkbox" name="linguagem"/> C++ <br>
+            <input type="checkbox" name="linguagem"/> Java <br>
+            <input type="checkbox" name="linguagem"/> Ruby <br>
+
+            Que dia você nasceu? <input type="datetime-local" name="data"/> <br>
+            <input type="button" name="seilaaaa" value="QUE SONO!!!" onclick="alert('Olá mundo curel!');"/>
+
+            <input type="reset" name="reset" value="RESET"/> <br>
+
+            <label for="cars">Ecolha um carro:</label> <br>
+            <select name="cars" id="cars">
+                <option value="GTI">GTI</option>
+                <option value="COROLLA">CORSA</option>
+                <option value="BMW">COROLLA</option>
+            </select>
+            <br>
+
+            <input type="submit" value="MANDA!"/><br>
+        </form>
+    </body>
+</html>
