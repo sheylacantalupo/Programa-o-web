@@ -1,18 +1,19 @@
+alert("Hoje tem prova!");
 
-console.log("Hoje tem prova!")
+soma_notas = 0;
+
+for(let i = 0; i <10> 0; i++){
+
+    nota = parseInt(prompt("Digite uma nota:"));
+    soma_notas += nota;
+
+}
+
+media = soma_notas/10;
 
 
-teste = parseInt(prompt("Digite um número: "))
+let texto1 = `<p>Soma das notas: ${soma_notas}</p> Média= ${media}`
+document.writeln(texto1);
 
 
-document.writeln("Hoje tem prova!")
 
-
-alert("Hoje tem prova!")
-
-
-num % 2 === 0 ? alert("par"): alert("ímpar");
-
-let texto1 = `<h1>Olha que legal, veio o JS</h1>
-<hr>
-<p> O dobro de...</p>`
