@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <title>Capturando eventos</title>
+    
+
+  </head>
+
+  <body>
+
+    <h1>Capturando alguns eventos</h1>
+    <button onclick="clique_botao()">clique aqui</button>
+    <button ondblclick="clique_duplo()">clique duas vezes</button>
+    <p id="exemplo">Exemplo</p>
+
+    Campo 1: <input type="text" id="campo1"
+    value="insira aqui seu nome"> 
+    Campo 2: <input type="text" id="campo2"
+    > <br><br>
+
+    <button onclick="copia_texto()">Copia texto</button>
+
+  </body>
+
+  <script>
+    function clique_botao(){
+      alert('Você clicou no botão!');
+    }
+
+    function clique_duplo(){
+      alert('Você clicou duas vezes no botão!');
+    }
+
+    function copia_texto(){
+      var campo1 = document.getElementById('campo1');
+      var campo2 = document.querySelector('#campo2');
+      campo2.value = campo1.value;
+      
+    }
+
+
+  </script>
+
+</html>
